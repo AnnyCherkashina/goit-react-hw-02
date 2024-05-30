@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Notification from "./components/Notification/Notification";
+import Options from "./components/Options/Options";
 import Description from "./components/Description/Description";
-
+import Feedback from "./components/Feedback/Feedback";
 
 function App() {
   const [feedbackTypes, setFeedback] = useState(() => {
@@ -55,4 +57,5 @@ function App() {
     </>
   );
 }
-export default App
+
+export default App;
